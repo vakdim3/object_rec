@@ -3,10 +3,12 @@ import 'package:camera/camera.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:get/get.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:get/get_state_manager/src/simple/get_state.dart';
 import 'package:object_detection_flutter/recognizer-controller/scan_controller.dart';
 import 'package:object_detection_flutter/main/navbar.dart';
+
 
 // ignore: duplicate_import
 import 'package:object_detection_flutter/main/navbar.dart';
@@ -22,17 +24,6 @@ class CameraView extends StatefulWidget {
   State<CameraView> createState() => _CameraViewState();
 }
 
-int myIndex = 0;
-List<Widget> widgetList = const [
-Text('Pinfo', style: TextStyle(fontSize: 30)),
-Text('Helpurl', style: TextStyle(fontSize: 30)),
-Text('Info', style: TextStyle(fontSize: 30)),
-
-];
-
-
-
-
 class _CameraViewState extends State<CameraView> {
   @override
   Widget build(BuildContext context) {
@@ -42,7 +33,7 @@ class _CameraViewState extends State<CameraView> {
       appBar: AppBar(
         title: const Text("Recongizerhelper",
             style: TextStyle(
-              color: Colors.white,
+              color: Color.fromARGB(255, 243, 243, 243),
               fontWeight: FontWeight.w500,
 
 
@@ -50,10 +41,29 @@ class _CameraViewState extends State<CameraView> {
 
 
             )),
-        backgroundColor: const Color.fromARGB(255, 202, 201, 201),
+        backgroundColor: Color.fromARGB(255, 231, 71, 71),
         centerTitle: true,
+
         actions: <Widget>[
-          IconButton(
+          Row(
+            children: [
+              IconButton(
+                icon: const Icon(Icons.elevator),
+                onPressed: (){
+               Navigator.pushNamed(context, '/elevator');
+                },
+              ),
+
+              
+
+
+
+
+
+
+
+
+              IconButton(
             icon: const Icon(Icons.exit_to_app),
             onPressed: (){
               if (Platform.isAndroid){
@@ -65,7 +75,11 @@ class _CameraViewState extends State<CameraView> {
 
             },
           )
+            ],
+          )
+          
         ],
+        
       ),
           
   
@@ -96,19 +110,28 @@ class _CameraViewState extends State<CameraView> {
                         child: Column(
                           mainAxisSize: MainAxisSize.min,
                           children: [
+                                    
                             SizedBox(
-                              width: 20,
-                              height: 100,
+                            
+                              width: 600,
+                              height: 00
+                              
+
                             ),
                             
-                            Container(
-                                color: const Color.fromARGB(255, 223, 216, 216),
-                                child: Text(
-                                  controller.label,
-                                  style: TextStyle(
-                                    fontSize: 20,
-                                  ),
-                                )),
+                            Column(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                Container(
+                                    color: Color.fromARGB(255, 180, 170, 170),
+                                    child: Text(
+                                      controller.label,
+                                      style: TextStyle(
+                                        fontSize: 20,
+                                      ),
+                                    )),
+                              ],
+                            ),
                           ],
                         ),
                       ),
@@ -119,34 +142,7 @@ class _CameraViewState extends State<CameraView> {
                   );
 
           }),
-          
-          bottomNavigationBar: BottomNavigationBar(
-          //ignore showSelectedLabels: false
-            showUnselectedLabels: false,
-            backgroundColor: Colors.pink,
-            type:BottomNavigationBarType.fixed,
-            onTap: (index){
-
-              setState(() {
-                 myIndex =index;
-
-              });
-             
-            },
-            currentIndex: myIndex,
-
-                    items: const [
-                      BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Pinfo',
-                      backgroundColor: Colors.blue),
-                      BottomNavigationBarItem(icon: Icon(Icons.mouse), label: 'Helpurl',
-                       backgroundColor: Colors.deepOrange),
-                      BottomNavigationBarItem(icon: Icon(Icons.info), label: 'Info',
-                       backgroundColor: Colors.lightGreenAccent),
-                      
-                    ],
-                    
-                  ),
-
+  
 
     );
   }

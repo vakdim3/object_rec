@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 
 
@@ -49,25 +50,25 @@ class _NavBarState extends State<NavBar> {
           ListTile(
             leading: Icon(Icons.favorite),
             title: Text('Favorites objects'),
-            onTap: () => null,
+            onTap: () => Navigator.pushNamed(context, '/Fav'),
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.share),
             title: Text('Report bugs'),
-            onTap: () => null,
+            onTap: () => Navigator.pushNamed(context, '/Report'),
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.notifications),
             title: Text('Request new functions'),
-            onTap: () => null,
+            onTap: () => Navigator.pushNamed(context, '/Request'),
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.settings),
             title: Text('Settings'),
-            onTap: () => null,
+            onTap: () => Navigator.pushNamed(context, '/Settings'),
           ),
           Divider(),
           ListTile(
