@@ -1,0 +1,13 @@
+io.flutter.plugins.camera.camera_android-jetified-window-java-1.0.0-beta04-0 C:\Users\Vadim\.gradle\caches\transforms-3\69784f8798499aada566d56915eaea52\transformed\jetified-window-java-1.0.0-beta04\res
+io.flutter.plugins.camera.camera_android-core-1.6.0-1 C:\Users\Vadim\.gradle\caches\transforms-3\6dddb760d0966fac9de7068cfa8e174f\transformed\core-1.6.0\res
+io.flutter.plugins.camera.camera_android-jetified-annotation-experimental-1.1.0-2 C:\Users\Vadim\.gradle\caches\transforms-3\abd548f6377ac26ea4638840cf10ac96\transformed\jetified-annotation-experimental-1.1.0\res
+io.flutter.plugins.camera.camera_android-jetified-window-1.0.0-beta04-3 C:\Users\Vadim\.gradle\caches\transforms-3\fc6658b749a9a03fa7668d3a2819fa6d\transformed\jetified-window-1.0.0-beta04\res
+io.flutter.plugins.camera.camera_android-main-4 C:\Users\Vadim\AppData\Local\Pub\Cache\hosted\pub.dev\camera_android-0.10.8+3\android\src\main\res
+io.flutter.plugins.camera.camera_android-release-5 C:\Users\Vadim\AppData\Local\Pub\Cache\hosted\pub.dev\camera_android-0.10.8+3\android\src\release\res
+io.flutter.plugins.camera.camera_android-pngs-6 E:\newu\Real_time_object_detector_flutter-Master\build\camera_android\generated\res\pngs\release
+io.flutter.plugins.camera.camera_android-resValues-7 E:\newu\Real_time_object_detector_flutter-Master\build\camera_android\generated\res\resValues\release
+io.flutter.plugins.camera.camera_android-rs-8 E:\newu\Real_time_object_detector_flutter-Master\build\camera_android\generated\res\rs\release
+io.flutter.plugins.camera.camera_android-mergeReleaseResources-9 E:\newu\Real_time_object_detector_flutter-Master\build\camera_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.camera.camera_android-mergeReleaseResources-10 E:\newu\Real_time_object_detector_flutter-Master\build\camera_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.camera.camera_android-merged_res-11 E:\newu\Real_time_object_detector_flutter-Master\build\camera_android\intermediates\merged_res\release
+io.flutter.plugins.camera.camera_android-packaged_res-12 E:\newu\Real_time_object_detector_flutter-Master\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\release

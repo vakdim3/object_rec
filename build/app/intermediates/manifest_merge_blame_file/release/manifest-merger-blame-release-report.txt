@@ -1,0 +1,179 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.object_detection_flutter"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:2:5-64
+11-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:2:22-62
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->[:camera_android] E:\newu\Real_time_object_detector_flutter-Master\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-71
+12-->[:camera_android] E:\newu\Real_time_object_detector_flutter-Master\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-68
+13
+14    <permission
+14-->[androidx.core:core:1.10.1] C:\Users\Vadim\.gradle\caches\transforms-3\3731717fba2b9aac328544f627557865\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.object_detection_flutter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.10.1] C:\Users\Vadim\.gradle\caches\transforms-3\3731717fba2b9aac328544f627557865\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.10.1] C:\Users\Vadim\.gradle\caches\transforms-3\3731717fba2b9aac328544f627557865\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.object_detection_flutter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.10.1] C:\Users\Vadim\.gradle\caches\transforms-3\3731717fba2b9aac328544f627557865\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.10.1] C:\Users\Vadim\.gradle\caches\transforms-3\3731717fba2b9aac328544f627557865\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+19
+20    <application
+21        android:name="android.app.Application"
+21-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:5:9-42
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.10.1] C:\Users\Vadim\.gradle\caches\transforms-3\3731717fba2b9aac328544f627557865\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:6:9-43
+25        android:label="Object Detector" >
+25-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:4:9-40
+26        <activity
+26-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:7:9-27:20
+27            android:name="com.example.object_detection_flutter.MainActivity"
+27-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:8:13-41
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+28-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:12:13-163
+29            android:exported="true"
+29-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:9:13-36
+30            android:hardwareAccelerated="true"
+30-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:13:13-47
+31            android:launchMode="singleTop"
+31-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:10:13-43
+32            android:theme="@style/LaunchTheme"
+32-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:11:13-47
+33            android:windowSoftInputMode="adjustResize" >
+33-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:14:13-55
+34
+35            <!--
+36                 Specifies an Android theme to apply to this Activity as soon as
+37                 the Android process has started. This theme is visible to the user
+38                 while the Flutter UI initializes. After that, this theme continues
+39                 to determine the Window background behind the Flutter UI.
+40            -->
+41            <meta-data
+41-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:19:13-22:17
+42                android:name="io.flutter.embedding.android.NormalTheme"
+42-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:20:15-70
+43                android:resource="@style/NormalTheme" />
+43-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:21:15-52
+44
+45            <intent-filter>
+45-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:23:13-26:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:24:17-68
+46-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:24:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:25:17-76
+48-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:25:27-74
+49            </intent-filter>
+50        </activity>
+51        <!--
+52             Don't delete the meta-data below.
+53             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+54        -->
+55        <meta-data
+55-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:30:9-32:33
+56            android:name="flutterEmbedding"
+56-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:31:13-44
+57            android:value="2" />
+57-->E:\newu\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:32:13-30
+58
+59        <provider
+59-->[:image_picker_android] E:\newu\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+60            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+60-->[:image_picker_android] E:\newu\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-82
+61            android:authorities="com.example.object_detection_flutter.flutter.image_provider"
+61-->[:image_picker_android] E:\newu\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-74
+62            android:exported="false"
+62-->[:image_picker_android] E:\newu\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+63            android:grantUriPermissions="true" >
+63-->[:image_picker_android] E:\newu\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+64            <meta-data
+64-->[:image_picker_android] E:\newu\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:75
+65                android:name="android.support.FILE_PROVIDER_PATHS"
+65-->[:image_picker_android] E:\newu\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+66                android:resource="@xml/flutter_image_picker_file_paths" />
+66-->[:image_picker_android] E:\newu\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-72
+67        </provider>
+68
+69        <uses-library
+69-->[androidx.window:window:1.0.0-beta04] C:\Users\Vadim\.gradle\caches\transforms-3\fc6658b749a9a03fa7668d3a2819fa6d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+70            android:name="androidx.window.extensions"
+70-->[androidx.window:window:1.0.0-beta04] C:\Users\Vadim\.gradle\caches\transforms-3\fc6658b749a9a03fa7668d3a2819fa6d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+71            android:required="false" />
+71-->[androidx.window:window:1.0.0-beta04] C:\Users\Vadim\.gradle\caches\transforms-3\fc6658b749a9a03fa7668d3a2819fa6d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+72        <uses-library
+72-->[androidx.window:window:1.0.0-beta04] C:\Users\Vadim\.gradle\caches\transforms-3\fc6658b749a9a03fa7668d3a2819fa6d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+73            android:name="androidx.window.sidecar"
+73-->[androidx.window:window:1.0.0-beta04] C:\Users\Vadim\.gradle\caches\transforms-3\fc6658b749a9a03fa7668d3a2819fa6d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+74            android:required="false" />
+74-->[androidx.window:window:1.0.0-beta04] C:\Users\Vadim\.gradle\caches\transforms-3\fc6658b749a9a03fa7668d3a2819fa6d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+75
+76        <provider
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+77            android:name="androidx.startup.InitializationProvider"
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
+78            android:authorities="com.example.object_detection_flutter.androidx-startup"
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
+79            android:exported="false" >
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
+80            <meta-data
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+82                android:value="androidx.startup" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+83        </provider>
+84
+85        <receiver
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+86            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+87            android:directBootAware="false"
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+88            android:enabled="true"
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+89            android:exported="true"
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+90            android:permission="android.permission.DUMP" >
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+92                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+95                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+98                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+101                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+102            </intent-filter>
+103        </receiver>
+104    </application>
+105
+106</manifest>
