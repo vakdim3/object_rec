@@ -1,4 +1,4 @@
-#Sun Oct 15 11:11:54 EEST 2023
+#Sun Oct 15 13:13:07 EEST 2023
 base.0=C\:\\Users\\Vadim\\Desktop\\copy codes\\Real_time_object_detector_flutter-Master\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\Vadim\\Desktop\\copy codes\\Real_time_object_detector_flutter-Master\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\Vadim\\Desktop\\copy codes\\Real_time_object_detector_flutter-Master\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

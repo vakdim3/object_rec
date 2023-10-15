@@ -52,7 +52,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   // Handle language change
                 });
               },
-              items: <String>['English', 'Spanish', 'French', 'German' 'Ukrain']
+              items: <String>['English', 'Spanish', 'French', 'German','Ukrain' ]
                   .map<DropdownMenuItem<String>>((String value) {
                 return DropdownMenuItem<String>(
                   value: value,

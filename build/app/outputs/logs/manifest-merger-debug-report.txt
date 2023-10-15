@@ -3,6 +3,8 @@ application
 INJECTED from C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\android\app\src\main\AndroidManifest.xml:3:5-33:19
 MERGED from [:image_picker_android] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
 MERGED from [:image_picker_android] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
+MERGED from [:url_launcher_android] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Vadim\.gradle\caches\transforms-3\fc6658b749a9a03fa7668d3a2819fa6d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Vadim\.gradle\caches\transforms-3\fc6658b749a9a03fa7668d3a2819fa6d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.core:core:1.10.1] C:\Users\Vadim\.gradle\caches\transforms-3\3731717fba2b9aac328544f627557865\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
@@ -13,12 +15,12 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Vadim\.gradle\cach
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Vadim\.gradle\caches\transforms-3\7743da308a5fc1539c5ede971c88b4f8\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Vadim\.gradle\caches\transforms-3\5829408f3517a9dedaab653fd5a74f2e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Vadim\.gradle\caches\transforms-3\5829408f3517a9dedaab653fd5a74f2e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [org.tensorflow:tensorflow-lite:2.13.0] C:\Users\Vadim\.gradle\caches\transforms-3\848821715b479688a15a8d00811a9733\transformed\jetified-tensorflow-lite-2.13.0\AndroidManifest.xml:9:5-20
-MERGED from [org.tensorflow:tensorflow-lite:2.13.0] C:\Users\Vadim\.gradle\caches\transforms-3\848821715b479688a15a8d00811a9733\transformed\jetified-tensorflow-lite-2.13.0\AndroidManifest.xml:9:5-20
-MERGED from [org.tensorflow:tensorflow-lite-gpu:2.13.0] C:\Users\Vadim\.gradle\caches\transforms-3\62b7b9d0c4508e0524178504923481b0\transformed\jetified-tensorflow-lite-gpu-2.13.0\AndroidManifest.xml:9:5-20
-MERGED from [org.tensorflow:tensorflow-lite-gpu:2.13.0] C:\Users\Vadim\.gradle\caches\transforms-3\62b7b9d0c4508e0524178504923481b0\transformed\jetified-tensorflow-lite-gpu-2.13.0\AndroidManifest.xml:9:5-20
-MERGED from [org.tensorflow:tensorflow-lite-api:2.13.0] C:\Users\Vadim\.gradle\caches\transforms-3\52fee22e3d84e0e65bd5ef620e8bd587\transformed\jetified-tensorflow-lite-api-2.13.0\AndroidManifest.xml:9:5-20
-MERGED from [org.tensorflow:tensorflow-lite-api:2.13.0] C:\Users\Vadim\.gradle\caches\transforms-3\52fee22e3d84e0e65bd5ef620e8bd587\transformed\jetified-tensorflow-lite-api-2.13.0\AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.14.0] C:\Users\Vadim\.gradle\caches\transforms-3\5cf27a1435d35ff3e6782d21e17bbf27\transformed\jetified-tensorflow-lite-2.14.0\AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.14.0] C:\Users\Vadim\.gradle\caches\transforms-3\5cf27a1435d35ff3e6782d21e17bbf27\transformed\jetified-tensorflow-lite-2.14.0\AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.14.0] C:\Users\Vadim\.gradle\caches\transforms-3\71a0703b694910ad0892fd6e0e436640\transformed\jetified-tensorflow-lite-gpu-2.14.0\AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.14.0] C:\Users\Vadim\.gradle\caches\transforms-3\71a0703b694910ad0892fd6e0e436640\transformed\jetified-tensorflow-lite-gpu-2.14.0\AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite-api:2.14.0] C:\Users\Vadim\.gradle\caches\transforms-3\a32fe4601e765253ab8ed93b3ad5944e\transformed\jetified-tensorflow-lite-api-2.14.0\AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite-api:2.14.0] C:\Users\Vadim\.gradle\caches\transforms-3\a32fe4601e765253ab8ed93b3ad5944e\transformed\jetified-tensorflow-lite-api-2.14.0\AndroidManifest.xml:9:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.10.1] C:\Users\Vadim\.gradle\caches\transforms-3\3731717fba2b9aac328544f627557865\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
 	android:name
@@ -34,8 +36,12 @@ MERGED from [:camera_android] C:\Users\Vadim\Desktop\copy codes\Real_time_object
 MERGED from [:image_picker_android] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-21:12
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:flutter_tflite] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\flutter_tflite\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:url_launcher_android] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-16:12
+MERGED from [:webview_flutter_android] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Vadim\.gradle\caches\transforms-3\800fe94207d17739b21af18d0750e5d0\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.7.2] C:\Users\Vadim\.gradle\caches\transforms-3\e21306db8ffd2549120076b95899d60c\transformed\jetified-activity-1.7.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.5.0] C:\Users\Vadim\.gradle\caches\transforms-3\42a5868a8ca922fb1169078514e56760\transformed\browser-1.5.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.webkit:webkit:1.5.0] C:\Users\Vadim\.gradle\caches\transforms-3\2b0f42d4443de6a5f1738d38912e20f4\transformed\webkit-1.5.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Vadim\.gradle\caches\transforms-3\69784f8798499aada566d56915eaea52\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Vadim\.gradle\caches\transforms-3\e99d61e40a1b81ac452b1ef10d35bfba\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Vadim\.gradle\caches\transforms-3\053cbfa7019762443eab7c6a3b283bea\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -56,10 +62,10 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Vadim\.gradle\caches\trans
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Vadim\.gradle\caches\transforms-3\add2b0e22a085a1a551afc44e68990e5\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Vadim\.gradle\caches\transforms-3\5829408f3517a9dedaab653fd5a74f2e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Vadim\.gradle\caches\transforms-3\fcf8346cc8927f4d72d07e3490a947dc\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
-MERGED from [org.tensorflow:tensorflow-lite:2.13.0] C:\Users\Vadim\.gradle\caches\transforms-3\848821715b479688a15a8d00811a9733\transformed\jetified-tensorflow-lite-2.13.0\AndroidManifest.xml:2:1-11:12
-MERGED from [org.tensorflow:tensorflow-lite-gpu:2.13.0] C:\Users\Vadim\.gradle\caches\transforms-3\62b7b9d0c4508e0524178504923481b0\transformed\jetified-tensorflow-lite-gpu-2.13.0\AndroidManifest.xml:2:1-11:12
+MERGED from [org.tensorflow:tensorflow-lite:2.14.0] C:\Users\Vadim\.gradle\caches\transforms-3\5cf27a1435d35ff3e6782d21e17bbf27\transformed\jetified-tensorflow-lite-2.14.0\AndroidManifest.xml:2:1-11:12
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.14.0] C:\Users\Vadim\.gradle\caches\transforms-3\71a0703b694910ad0892fd6e0e436640\transformed\jetified-tensorflow-lite-gpu-2.14.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\c062ab15e694331f58e6823a350dbf1a\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-MERGED from [org.tensorflow:tensorflow-lite-api:2.13.0] C:\Users\Vadim\.gradle\caches\transforms-3\52fee22e3d84e0e65bd5ef620e8bd587\transformed\jetified-tensorflow-lite-api-2.13.0\AndroidManifest.xml:2:1-11:12
+MERGED from [org.tensorflow:tensorflow-lite-api:2.14.0] C:\Users\Vadim\.gradle\caches\transforms-3\a32fe4601e765253ab8ed93b3ad5944e\transformed\jetified-tensorflow-lite-api-2.14.0\AndroidManifest.xml:2:1-11:12
 INJECTED from C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\android\app\src\debug\AndroidManifest.xml:1:1-7:12
@@ -97,10 +103,18 @@ MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Vadim\Desktop\copy code
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_tflite] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\flutter_tflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_tflite] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\flutter_tflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:webview_flutter_android] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:webview_flutter_android] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Vadim\.gradle\caches\transforms-3\800fe94207d17739b21af18d0750e5d0\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Vadim\.gradle\caches\transforms-3\800fe94207d17739b21af18d0750e5d0\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.7.2] C:\Users\Vadim\.gradle\caches\transforms-3\e21306db8ffd2549120076b95899d60c\transformed\jetified-activity-1.7.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.7.2] C:\Users\Vadim\.gradle\caches\transforms-3\e21306db8ffd2549120076b95899d60c\transformed\jetified-activity-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.5.0] C:\Users\Vadim\.gradle\caches\transforms-3\42a5868a8ca922fb1169078514e56760\transformed\browser-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.5.0] C:\Users\Vadim\.gradle\caches\transforms-3\42a5868a8ca922fb1169078514e56760\transformed\browser-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.5.0] C:\Users\Vadim\.gradle\caches\transforms-3\2b0f42d4443de6a5f1738d38912e20f4\transformed\webkit-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.5.0] C:\Users\Vadim\.gradle\caches\transforms-3\2b0f42d4443de6a5f1738d38912e20f4\transformed\webkit-1.5.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Vadim\.gradle\caches\transforms-3\69784f8798499aada566d56915eaea52\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Vadim\.gradle\caches\transforms-3\69784f8798499aada566d56915eaea52\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Vadim\.gradle\caches\transforms-3\e99d61e40a1b81ac452b1ef10d35bfba\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
@@ -141,14 +155,14 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Va
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Vadim\.gradle\caches\transforms-3\5829408f3517a9dedaab653fd5a74f2e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Vadim\.gradle\caches\transforms-3\fcf8346cc8927f4d72d07e3490a947dc\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Vadim\.gradle\caches\transforms-3\fcf8346cc8927f4d72d07e3490a947dc\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [org.tensorflow:tensorflow-lite:2.13.0] C:\Users\Vadim\.gradle\caches\transforms-3\848821715b479688a15a8d00811a9733\transformed\jetified-tensorflow-lite-2.13.0\AndroidManifest.xml:6:5-7:38
-MERGED from [org.tensorflow:tensorflow-lite:2.13.0] C:\Users\Vadim\.gradle\caches\transforms-3\848821715b479688a15a8d00811a9733\transformed\jetified-tensorflow-lite-2.13.0\AndroidManifest.xml:6:5-7:38
-MERGED from [org.tensorflow:tensorflow-lite-gpu:2.13.0] C:\Users\Vadim\.gradle\caches\transforms-3\62b7b9d0c4508e0524178504923481b0\transformed\jetified-tensorflow-lite-gpu-2.13.0\AndroidManifest.xml:6:5-7:38
-MERGED from [org.tensorflow:tensorflow-lite-gpu:2.13.0] C:\Users\Vadim\.gradle\caches\transforms-3\62b7b9d0c4508e0524178504923481b0\transformed\jetified-tensorflow-lite-gpu-2.13.0\AndroidManifest.xml:6:5-7:38
+MERGED from [org.tensorflow:tensorflow-lite:2.14.0] C:\Users\Vadim\.gradle\caches\transforms-3\5cf27a1435d35ff3e6782d21e17bbf27\transformed\jetified-tensorflow-lite-2.14.0\AndroidManifest.xml:6:5-7:38
+MERGED from [org.tensorflow:tensorflow-lite:2.14.0] C:\Users\Vadim\.gradle\caches\transforms-3\5cf27a1435d35ff3e6782d21e17bbf27\transformed\jetified-tensorflow-lite-2.14.0\AndroidManifest.xml:6:5-7:38
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.14.0] C:\Users\Vadim\.gradle\caches\transforms-3\71a0703b694910ad0892fd6e0e436640\transformed\jetified-tensorflow-lite-gpu-2.14.0\AndroidManifest.xml:6:5-7:38
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.14.0] C:\Users\Vadim\.gradle\caches\transforms-3\71a0703b694910ad0892fd6e0e436640\transformed\jetified-tensorflow-lite-gpu-2.14.0\AndroidManifest.xml:6:5-7:38
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\c062ab15e694331f58e6823a350dbf1a\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Vadim\.gradle\caches\transforms-3\c062ab15e694331f58e6823a350dbf1a\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
-MERGED from [org.tensorflow:tensorflow-lite-api:2.13.0] C:\Users\Vadim\.gradle\caches\transforms-3\52fee22e3d84e0e65bd5ef620e8bd587\transformed\jetified-tensorflow-lite-api-2.13.0\AndroidManifest.xml:6:5-7:38
-MERGED from [org.tensorflow:tensorflow-lite-api:2.13.0] C:\Users\Vadim\.gradle\caches\transforms-3\52fee22e3d84e0e65bd5ef620e8bd587\transformed\jetified-tensorflow-lite-api-2.13.0\AndroidManifest.xml:6:5-7:38
+MERGED from [org.tensorflow:tensorflow-lite-api:2.14.0] C:\Users\Vadim\.gradle\caches\transforms-3\a32fe4601e765253ab8ed93b3ad5944e\transformed\jetified-tensorflow-lite-api-2.14.0\AndroidManifest.xml:6:5-7:38
+MERGED from [org.tensorflow:tensorflow-lite-api:2.14.0] C:\Users\Vadim\.gradle\caches\transforms-3\a32fe4601e765253ab8ed93b3ad5944e\transformed\jetified-tensorflow-lite-api-2.14.0\AndroidManifest.xml:6:5-7:38
 INJECTED from C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\android\app\src\debug\AndroidManifest.xml
 INJECTED from C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
@@ -181,6 +195,14 @@ ADDED from [:image_picker_android] C:\Users\Vadim\Desktop\copy codes\Real_time_o
 		ADDED from [:image_picker_android] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
 	android:name
 		ADDED from [:image_picker_android] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+	android:exported
+		ADDED from [:url_launcher_android] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:url_launcher_android] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from [:url_launcher_android] C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Vadim\.gradle\caches\transforms-3\fc6658b749a9a03fa7668d3a2819fa6d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 	android:required

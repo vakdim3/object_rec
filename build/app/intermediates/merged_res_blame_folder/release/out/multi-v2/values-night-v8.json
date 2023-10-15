@@ -4,7 +4,7 @@
             "outputFile": "com.example.object_detection_flutter.app-mergeReleaseResources-20:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "E:\\newu\\Real_time_object_detector_flutter-Master\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\Vadim\\Desktop\\copy codes\\Real_time_object_detector_flutter-Master\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

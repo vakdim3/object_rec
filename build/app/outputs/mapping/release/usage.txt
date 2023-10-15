@@ -3359,6 +3359,7 @@ com.baseflow.permissionhandler.PermissionConstants
 com.baseflow.permissionhandler.PermissionHandlerPlugin:
     public static void registerWith(io.flutter.plugin.common.PluginRegistry$Registrar)
 com.baseflow.permissionhandler.PermissionUtils:
+    static final java.lang.String SHARED_PREFERENCES_PERMISSION_WAS_DENIED_BEFORE_KEY
     public void <init>()
 com.baseflow.permissionhandler.R$attr
 com.baseflow.permissionhandler.R$color
@@ -3977,6 +3978,8 @@ io.flutter.plugins.camera.CameraUtils:
     private void <init>()
 io.flutter.plugins.camera.DartMessenger:
     private void send(io.flutter.plugins.camera.DartMessenger$DeviceEventType)
+io.flutter.plugins.camera.DeviceInfo:
+    public void <init>()
 io.flutter.plugins.camera.ImageSaver$FileOutputStreamFactory:
     void <init>()
 io.flutter.plugins.camera.R$attr
@@ -3990,6 +3993,8 @@ io.flutter.plugins.camera.R$string
 io.flutter.plugins.camera.R$style
 io.flutter.plugins.camera.R$styleable
 io.flutter.plugins.camera.R
+io.flutter.plugins.camera.SdkCapabilityChecker:
+    public void <init>()
 io.flutter.plugins.camera.VideoRenderer:
     private static final java.lang.String fragmentShaderCode
     private static final java.lang.String vertexShaderCode

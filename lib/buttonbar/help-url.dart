@@ -1,29 +1,22 @@
 import 'package:flutter/material.dart';
+import 'package:webview_flutter/webview_flutter.dart';
 
-class Helpurl extends StatelessWidget{
-  const Helpurl ({Key? key}) : super(key: key);
+class HelpScreen extends StatelessWidget {
+  const HelpScreen({Key? key}) : super(key: key);
 
   @override
- Widget build(BuildContext context) {
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        centerTitle: true,
-        title: const Text(
-          'second screen',
-        ),
+        title: Text('url for github/help'),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            ElevatedButton(
-              onPressed: () {
-                Navigator.pop(context);
-              },
-              child: const Text('Back'),
-            ),
-          ],
-        ),
+      body: WebView(
+        initialUrl: 'https://github.com/vakdim3', 
+        javascriptMode: JavascriptMode.unrestricted,
+        onWebViewCreated: (WebViewController webViewController) {
+        },
+        onPageFinished: (String url) {
+        },
       ),
     );
   }

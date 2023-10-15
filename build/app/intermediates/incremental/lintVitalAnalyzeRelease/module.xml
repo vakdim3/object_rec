@@ -1,11 +1,11 @@
 <lint-module
     format="1"
-    dir="E:\newu\Real_time_object_detector_flutter-Master\android\app"
+    dir="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\android\app"
     name=":app"
     type="APP"
     maven="android:app:"
     gradle="7.3.0"
-    buildFolder="E:\newu\Real_time_object_detector_flutter-Master\build\app"
+    buildFolder="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app"
     bootClassPath="C:\Users\Vadim\AppData\Local\Android\platforms\android-33\android.jar;C:\Users\Vadim\AppData\Local\Android\build-tools\30.0.3\core-lambda-stubs.jar"
     javaSourceLevel="1.8"
     compileTarget="android-33">

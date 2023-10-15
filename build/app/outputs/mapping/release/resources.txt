@@ -26,8 +26,8 @@ click
 EXPOSURE_LOCK
 pausePreview
 AspectFrame
-cameraId
 left
+cameraId
 kotlinx.coroutines.DefaultExecutor
 sensorSensitivity
 registerWith
@@ -72,6 +72,7 @@ SystemUiMode.edgeToEdge
 ColorSpace
 displayFeature.rect
 mimeType
+no_valid_image_uri
 isTagEnabled
 startIndex
 emailAddress
@@ -81,8 +82,8 @@ LONG_PRESS
 HAS_CHECKED_STATE
 FlutterEngine
 external
-flutter/keyevent
 DateTimeDigitized
+flutter/keyevent
 success
 AppLifecycleState.
 SystemChrome.setSystemUIOverlayStyle
@@ -122,6 +123,7 @@ java.lang.Float
 Dispatchers.IO
 FOCUS_POINT
 focus
+android.settings.REQUEST_SCHEDULE_EXA...
 EmptyQueue
 embeddingExtension
 PAUSED
@@ -136,8 +138,8 @@ fullPackage
 write
 onStop
 maxWidth
-SensorLeftBorder
 GPSDestLatitudeRef
+SensorLeftBorder
 setExposureModeFailed
 byte
 CAMERA
@@ -156,6 +158,7 @@ FlutterActivityAndFragmentDelegate
 initialState
 birthDateYear
 MaxApertureValue
+LensSerialNumber
 %s.%sParcelizer
 CHARACTERS
 top
@@ -234,8 +237,8 @@ png
 android.view.ViewRootImpl
 resumePreview
 Destroying.
-tensorflowlite_jni_stable
 GPSImgDirectionRef
+tensorflowlite_jni_stable
 labels
 input
 InteroperabilityIndex
@@ -386,8 +389,8 @@ android.permission.ACTIVITY_RECOGNITION
 setLocale
 getUri
 Clipboard.setData
-resumeVideoRecording
 TextInputType.phone
+resumeVideoRecording
 TextInput.sendAppPrivateCommand
 part
 values
@@ -417,8 +420,8 @@ resizeColumn
 plugins
 kotlin.Cloneable
 IS_FOCUSED
-PlatformViewsController
 GPSDestBearing
+PlatformViewsController
 path
 runModelOnBinary
 ReceiveQueued
@@ -571,8 +574,8 @@ io.flutter.EntrypointUri
 VIRTUAL_DISPLAY_PLATFORM_VIEW
 IS_SLIDER
 newIndent
-texMatrix
 resizeUpLeftDownRight
+texMatrix
 KeyboardManager
 RESUMED
 NOISE_REDUCTION
@@ -594,8 +597,8 @@ personMiddleName
 null
 background
 true
-dispose
 androidx.lifecycle.internal.SavedStat...
+dispose
 camera_closing
 phoneNational
 SSHORT
@@ -815,8 +818,8 @@ mvp
 dart_entrypoint_args
 android.hardware.telephony
 pathList
-int
 GPSDestLongitudeRef
+int
 LensMake
 bluetooth
 com.google.android.inputmethod.latin
@@ -834,8 +837,8 @@ android.util.LongArray
 getUncaughtExceptionPreHandler
 setZoomLevel
 onBackPressed
-setExposureMode
 adapter
+setExposureMode
 LANDSCAPE_RIGHT
 runPoseNetOnImage
 LEFT
@@ -867,6 +870,7 @@ CameraOwnerName
 IS_CHECK_STATE_MIXED
 imageHeight
 displayFeatures
+no_valid_video_uri
 fast
 androidx.lifecycle.BundlableSavedStat...
 package:
@@ -911,7 +915,6 @@ oldValue
 io.flutter.embedding.android.OldGenHe...
 BITMAP_MASKABLE
 FlutterSplashView
-ExifDataCopier
 http://ns.adobe.com/xap/1.0/
 IS_OBSCURED
 label
@@ -920,8 +923,8 @@ scanCode
 FlutterJNI
 setDisplayFeatures
 HapticFeedbackType.lightImpact
-FrameHandlerThread
 creditCardExpirationDay
+FrameHandlerThread
 username
 previewHeight
 decorate
@@ -1451,6 +1454,7 @@ HAS_TOGGLED_STATE
 IS_SELECTED
 createAsync
 .Companion
+sp_permission_handler_permission_was_...
 SubSecTimeOriginal
 EMAIL_ADDRESS
 flutter_image_picker_image_quality

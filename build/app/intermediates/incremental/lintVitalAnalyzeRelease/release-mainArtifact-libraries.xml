@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:E:\newu\Real_time_object_detector_flutter-Master\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"
-      jars="E:\newu\Real_time_object_detector_flutter-Master\build\app\intermediates\flutter\release\libs.jar"
-      resolved="__local_aars__:E:\newu\Real_time_object_detector_flutter-Master\build\app\intermediates\flutter\release\libs.jar:unspecified"/>
+      name="__local_aars__:C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"
+      jars="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\intermediates\flutter\release\libs.jar"
+      resolved="__local_aars__:C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\intermediates\flutter\release\libs.jar:unspecified"/>
   <library
-      name="E:\newu\Real_time_object_detector_flutter-Master\android@@:permission_handler_android::release"
-      jars="E:\newu\Real_time_object_detector_flutter-Master\build\permission_handler_android\.transforms\4a19d672365783d5d256e38e582739dd\transformed\out\jars\classes.jar;E:\newu\Real_time_object_detector_flutter-Master\build\permission_handler_android\.transforms\4a19d672365783d5d256e38e582739dd\transformed\out\jars\libs\R.jar"
+      name="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\android@@:permission_handler_android::release"
+      jars="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\permission_handler_android\.transforms\e5dbd60f1680f35591649ed4fde714e1\transformed\out\jars\classes.jar;C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\permission_handler_android\.transforms\e5dbd60f1680f35591649ed4fde714e1\transformed\out\jars\libs\R.jar"
       resolved="com.baseflow.permissionhandler:permission_handler_android:unspecified"
-      folder="E:\newu\Real_time_object_detector_flutter-Master\build\permission_handler_android\.transforms\4a19d672365783d5d256e38e582739dd\transformed\out"
+      folder="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\permission_handler_android\.transforms\e5dbd60f1680f35591649ed4fde714e1\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -17,10 +17,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="E:\newu\Real_time_object_detector_flutter-Master\android@@:flutter_plugin_android_lifecycle::release"
-      jars="E:\newu\Real_time_object_detector_flutter-Master\build\flutter_plugin_android_lifecycle\.transforms\07d0fb86f5e36ede846938ba3566a513\transformed\out\jars\classes.jar;E:\newu\Real_time_object_detector_flutter-Master\build\flutter_plugin_android_lifecycle\.transforms\07d0fb86f5e36ede846938ba3566a513\transformed\out\jars\libs\R.jar"
+      name="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\android@@:flutter_plugin_android_lifecycle::release"
+      jars="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\flutter_plugin_android_lifecycle\.transforms\915b37bff4b1a4a24aaa405ee4ecef81\transformed\out\jars\classes.jar;C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\flutter_plugin_android_lifecycle\.transforms\915b37bff4b1a4a24aaa405ee4ecef81\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.flutter_plugin_android_lifecycle:flutter_plugin_android_lifecycle:unspecified"
-      folder="E:\newu\Real_time_object_detector_flutter-Master\build\flutter_plugin_android_lifecycle\.transforms\07d0fb86f5e36ede846938ba3566a513\transformed\out"
+      folder="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\flutter_plugin_android_lifecycle\.transforms\915b37bff4b1a4a24aaa405ee4ecef81\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -30,10 +30,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="E:\newu\Real_time_object_detector_flutter-Master\android@@:flutter_tflite::release"
-      jars="E:\newu\Real_time_object_detector_flutter-Master\build\flutter_tflite\.transforms\8de3200c4c9e1b98daae708f47af7de4\transformed\out\jars\classes.jar;E:\newu\Real_time_object_detector_flutter-Master\build\flutter_tflite\.transforms\8de3200c4c9e1b98daae708f47af7de4\transformed\out\jars\libs\R.jar"
+      name="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\android@@:flutter_tflite::release"
+      jars="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\flutter_tflite\.transforms\4f861626b3adc1d6d23089b862bfb7ad\transformed\out\jars\classes.jar;C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\flutter_tflite\.transforms\4f861626b3adc1d6d23089b862bfb7ad\transformed\out\jars\libs\R.jar"
       resolved="sq.flutter.tflite:flutter_tflite:unspecified"
-      folder="E:\newu\Real_time_object_detector_flutter-Master\build\flutter_tflite\.transforms\8de3200c4c9e1b98daae708f47af7de4\transformed\out"
+      folder="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\flutter_tflite\.transforms\4f861626b3adc1d6d23089b862bfb7ad\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -43,10 +43,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="E:\newu\Real_time_object_detector_flutter-Master\android@@:camera_android::release"
-      jars="E:\newu\Real_time_object_detector_flutter-Master\build\camera_android\.transforms\79340607e2fd06f2c23ae7e980c45fbb\transformed\out\jars\classes.jar;E:\newu\Real_time_object_detector_flutter-Master\build\camera_android\.transforms\79340607e2fd06f2c23ae7e980c45fbb\transformed\out\jars\libs\R.jar"
+      name="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\android@@:camera_android::release"
+      jars="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\camera_android\.transforms\073834f3ffe375356c05a126dd42b05b\transformed\out\jars\classes.jar;C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\camera_android\.transforms\073834f3ffe375356c05a126dd42b05b\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.camera:camera_android:unspecified"
-      folder="E:\newu\Real_time_object_detector_flutter-Master\build\camera_android\.transforms\79340607e2fd06f2c23ae7e980c45fbb\transformed\out"
+      folder="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\camera_android\.transforms\073834f3ffe375356c05a126dd42b05b\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -56,10 +56,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="E:\newu\Real_time_object_detector_flutter-Master\android@@:image_picker_android::release"
-      jars="E:\newu\Real_time_object_detector_flutter-Master\build\image_picker_android\.transforms\94dc11417dcd011babb1e5e3a7b111de\transformed\out\jars\classes.jar;E:\newu\Real_time_object_detector_flutter-Master\build\image_picker_android\.transforms\94dc11417dcd011babb1e5e3a7b111de\transformed\out\jars\libs\R.jar"
+      name="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\android@@:image_picker_android::release"
+      jars="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\image_picker_android\.transforms\07f79808ade131534abdad957de6c646\transformed\out\jars\classes.jar;C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\image_picker_android\.transforms\07f79808ade131534abdad957de6c646\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.imagepicker:image_picker_android:unspecified"
-      folder="E:\newu\Real_time_object_detector_flutter-Master\build\image_picker_android\.transforms\94dc11417dcd011babb1e5e3a7b111de\transformed\out"
+      folder="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\image_picker_android\.transforms\07f79808ade131534abdad957de6c646\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -436,10 +436,10 @@
       jars="C:\Users\Vadim\.gradle\caches\modules-2\files-2.1\androidx.concurrent\concurrent-futures\1.1.0\50b7fb98350d5f42a4e49704b03278542293ba48\concurrent-futures-1.1.0.jar"
       resolved="androidx.concurrent:concurrent-futures:1.1.0"/>
   <library
-      name="org.tensorflow:tensorflow-lite:2.13.0@aar"
-      jars="C:\Users\Vadim\.gradle\caches\transforms-3\848821715b479688a15a8d00811a9733\transformed\jetified-tensorflow-lite-2.13.0\jars\classes.jar"
-      resolved="org.tensorflow:tensorflow-lite:2.13.0"
-      folder="C:\Users\Vadim\.gradle\caches\transforms-3\848821715b479688a15a8d00811a9733\transformed\jetified-tensorflow-lite-2.13.0"
+      name="org.tensorflow:tensorflow-lite:2.14.0@aar"
+      jars="C:\Users\Vadim\.gradle\caches\transforms-3\5cf27a1435d35ff3e6782d21e17bbf27\transformed\jetified-tensorflow-lite-2.14.0\jars\classes.jar"
+      resolved="org.tensorflow:tensorflow-lite:2.14.0"
+      folder="C:\Users\Vadim\.gradle\caches\transforms-3\5cf27a1435d35ff3e6782d21e17bbf27\transformed\jetified-tensorflow-lite-2.14.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -449,10 +449,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="org.tensorflow:tensorflow-lite-gpu:2.13.0@aar"
-      jars="C:\Users\Vadim\.gradle\caches\transforms-3\62b7b9d0c4508e0524178504923481b0\transformed\jetified-tensorflow-lite-gpu-2.13.0\jars\classes.jar"
-      resolved="org.tensorflow:tensorflow-lite-gpu:2.13.0"
-      folder="C:\Users\Vadim\.gradle\caches\transforms-3\62b7b9d0c4508e0524178504923481b0\transformed\jetified-tensorflow-lite-gpu-2.13.0"
+      name="org.tensorflow:tensorflow-lite-gpu:2.14.0@aar"
+      jars="C:\Users\Vadim\.gradle\caches\transforms-3\71a0703b694910ad0892fd6e0e436640\transformed\jetified-tensorflow-lite-gpu-2.14.0\jars\classes.jar"
+      resolved="org.tensorflow:tensorflow-lite-gpu:2.14.0"
+      folder="C:\Users\Vadim\.gradle\caches\transforms-3\71a0703b694910ad0892fd6e0e436640\transformed\jetified-tensorflow-lite-gpu-2.14.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -462,10 +462,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="org.tensorflow:tensorflow-lite-api:2.13.0@aar"
-      jars="C:\Users\Vadim\.gradle\caches\transforms-3\52fee22e3d84e0e65bd5ef620e8bd587\transformed\jetified-tensorflow-lite-api-2.13.0\jars\classes.jar"
-      resolved="org.tensorflow:tensorflow-lite-api:2.13.0"
-      folder="C:\Users\Vadim\.gradle\caches\transforms-3\52fee22e3d84e0e65bd5ef620e8bd587\transformed\jetified-tensorflow-lite-api-2.13.0"
+      name="org.tensorflow:tensorflow-lite-api:2.14.0@aar"
+      jars="C:\Users\Vadim\.gradle\caches\transforms-3\a32fe4601e765253ab8ed93b3ad5944e\transformed\jetified-tensorflow-lite-api-2.14.0\jars\classes.jar"
+      resolved="org.tensorflow:tensorflow-lite-api:2.14.0"
+      folder="C:\Users\Vadim\.gradle\caches\transforms-3\a32fe4601e765253ab8ed93b3ad5944e\transformed\jetified-tensorflow-lite-api-2.14.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

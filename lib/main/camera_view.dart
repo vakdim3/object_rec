@@ -14,6 +14,7 @@ import 'package:object_detection_flutter/main/navbar.dart';
 import 'package:object_detection_flutter/main/navbar.dart';
 
 
+
 class CameraView extends StatefulWidget {
   
   const CameraView({super.key});
@@ -24,22 +25,23 @@ class CameraView extends StatefulWidget {
   State<CameraView> createState() => _CameraViewState();
 }
 
+int myIndex = 0;
+List<Widget> widgetList = const [
+Text('Pinfo', style: TextStyle(fontSize: 30)),
+Text('Helpurl', style: TextStyle(fontSize: 30)),
+Text('Info', style: TextStyle(fontSize: 30)),
+
+];
 class _CameraViewState extends State<CameraView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
       drawer: NavBar(),
       appBar: AppBar(
         title: const Text("Recongizerhelper",
             style: TextStyle(
               color: Color.fromARGB(255, 243, 243, 243),
               fontWeight: FontWeight.w500,
-
-
-
-
-
             )),
         backgroundColor: Color.fromARGB(255, 231, 71, 71),
         centerTitle: true,
@@ -53,46 +55,20 @@ class _CameraViewState extends State<CameraView> {
                Navigator.pushNamed(context, '/elevator');
                 },
               ),
-
-              
-
-
-
-
-
-
-
-
               IconButton(
             icon: const Icon(Icons.exit_to_app),
             onPressed: (){
               if (Platform.isAndroid){
                 SystemNavigator.pop();
-                
               } else{
                 exit(0);
               }
-
             },
           )
             ],
           )
-          
         ],
-        
       ),
-          
-  
-
-        
-
-
-
-
-
-
-
-
       body: GetBuilder<ScanController>(
           init: ScanController(),
           builder: (controller) {
@@ -109,16 +85,11 @@ class _CameraViewState extends State<CameraView> {
                         ),
                         child: Column(
                           mainAxisSize: MainAxisSize.min,
-                          children: [
-                                    
+                          children: [        
                             SizedBox(
-                            
                               width: 600,
                               height: 00
-                              
-
                             ),
-                            
                             Column(
                               mainAxisAlignment: MainAxisAlignment.start,
                               children: [
@@ -140,9 +111,40 @@ class _CameraViewState extends State<CameraView> {
                 : Center(
                     child: Text("Loading cam"),
                   );
-
-          }),
-  
+          },
+        ),
+   bottomNavigationBar: BottomNavigationBar(
+          //ignore showSelectedLabels: false
+            showUnselectedLabels: false,
+            backgroundColor: Colors.pink,
+            type:BottomNavigationBarType.fixed,
+            onTap: (index){
+              setState(() {
+                 myIndex =index;
+              });  
+                        // Conditionally navigate based on the selected index
+          if (index == 0) {
+            // Pinfo
+            // You can replace this with the appropriate navigation logic
+            Navigator.pushNamed(context, '/Pinfo');
+          } else if (index == 1) {
+            // Helpurl
+            Navigator.pushNamed(context, '/Helpurl');
+          } else if (index == 2) {
+            // Info
+           Navigator.pushNamed(context, '/Info');
+          }
+            },
+            currentIndex: myIndex,
+                    items: const [
+                      BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Pinfo',
+                      backgroundColor: Colors.blue),
+                      BottomNavigationBarItem(icon: Icon(Icons.mouse), label: 'Helpurl',
+                       backgroundColor: Colors.deepOrange),
+                      BottomNavigationBarItem(icon: Icon(Icons.info), label: 'Info',
+                       backgroundColor: Colors.lightGreenAccent),
+                    ],
+                  ),
 
     );
   }

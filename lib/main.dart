@@ -12,7 +12,7 @@ import 'package:object_detection_flutter/main/navbar.dart';
 import 'package:object_detection_flutter/main/Elevator.dart';
 
 import 'package:flutter_translate/flutter_translate.dart';
-
+import 'package:url_launcher/url_launcher.dart';
 
 
 void main() {
@@ -40,9 +40,9 @@ class MyApp extends StatelessWidget {
 
 
       routes: {
-        '/helpurl' :(context) =>  Helpurl (),
-        '/Info' :(context) =>  Info (),
-        '/Pinfo' :(context) =>  Pinfo (),
+        '/Helpurl' :(context) =>  HelpScreen (),
+        '/Info' :(context) =>  InfoScreen (),
+        '/Pinfo' :(context) =>  PTranslationPage (),
         '/elevator' :(context) =>  TranslationPage (),
         '/Fav' :(context) =>  FavoritesPage (),
         '/Report' :(context) =>  BugReportPage (),

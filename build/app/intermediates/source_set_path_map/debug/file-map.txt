@@ -1,28 +1,32 @@
 com.example.object_detection_flutter.app-lifecycle-viewmodel-2.6.1-0 C:\Users\Vadim\.gradle\caches\transforms-3\1a6808abcf29ef71657858d9a615b828\transformed\lifecycle-viewmodel-2.6.1\res
 com.example.object_detection_flutter.app-jetified-lifecycle-viewmodel-savedstate-2.6.1-1 C:\Users\Vadim\.gradle\caches\transforms-3\1fe57b754a0eb83e6dd3a7fe9686fae5\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\res
 com.example.object_detection_flutter.app-jetified-profileinstaller-1.3.0-2 C:\Users\Vadim\.gradle\caches\transforms-3\27413a8c89f92533d090c05e22ef6892\transformed\jetified-profileinstaller-1.3.0\res
-com.example.object_detection_flutter.app-lifecycle-runtime-2.6.1-3 C:\Users\Vadim\.gradle\caches\transforms-3\3581e76262429182d4b69a9de799b1b3\transformed\lifecycle-runtime-2.6.1\res
-com.example.object_detection_flutter.app-lifecycle-livedata-core-2.6.1-4 C:\Users\Vadim\.gradle\caches\transforms-3\360168463849f03bb49b40b161d9e8ea\transformed\lifecycle-livedata-core-2.6.1\res
-com.example.object_detection_flutter.app-core-1.10.1-5 C:\Users\Vadim\.gradle\caches\transforms-3\3731717fba2b9aac328544f627557865\transformed\core-1.10.1\res
-com.example.object_detection_flutter.app-lifecycle-livedata-2.6.1-6 C:\Users\Vadim\.gradle\caches\transforms-3\6156003f4c260ee3c2e06fd24fdb3152\transformed\lifecycle-livedata-2.6.1\res
-com.example.object_detection_flutter.app-jetified-window-java-1.0.0-beta04-7 C:\Users\Vadim\.gradle\caches\transforms-3\69784f8798499aada566d56915eaea52\transformed\jetified-window-java-1.0.0-beta04\res
-com.example.object_detection_flutter.app-jetified-startup-runtime-1.1.1-8 C:\Users\Vadim\.gradle\caches\transforms-3\7743da308a5fc1539c5ede971c88b4f8\transformed\jetified-startup-runtime-1.1.1\res
-com.example.object_detection_flutter.app-jetified-core-ktx-1.10.1-9 C:\Users\Vadim\.gradle\caches\transforms-3\9069858c62004f13682531d31ea0bdaa\transformed\jetified-core-ktx-1.10.1\res
-com.example.object_detection_flutter.app-jetified-savedstate-1.2.1-10 C:\Users\Vadim\.gradle\caches\transforms-3\be90a3b1af0a4f86607586e8eb5e3c7f\transformed\jetified-savedstate-1.2.1\res
-com.example.object_detection_flutter.app-jetified-annotation-experimental-1.3.0-11 C:\Users\Vadim\.gradle\caches\transforms-3\c062ab15e694331f58e6823a350dbf1a\transformed\jetified-annotation-experimental-1.3.0\res
-com.example.object_detection_flutter.app-jetified-activity-1.7.2-12 C:\Users\Vadim\.gradle\caches\transforms-3\e21306db8ffd2549120076b95899d60c\transformed\jetified-activity-1.7.2\res
-com.example.object_detection_flutter.app-jetified-window-1.0.0-beta04-13 C:\Users\Vadim\.gradle\caches\transforms-3\fc6658b749a9a03fa7668d3a2819fa6d\transformed\jetified-window-1.0.0-beta04\res
-com.example.object_detection_flutter.app-core-runtime-2.2.0-14 C:\Users\Vadim\.gradle\caches\transforms-3\fcf8346cc8927f4d72d07e3490a947dc\transformed\core-runtime-2.2.0\res
-com.example.object_detection_flutter.app-debug-15 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\android\app\src\debug\res
-com.example.object_detection_flutter.app-main-16 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\android\app\src\main\res
-com.example.object_detection_flutter.app-pngs-17 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\generated\res\pngs\debug
-com.example.object_detection_flutter.app-resValues-18 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\generated\res\resValues\debug
-com.example.object_detection_flutter.app-rs-19 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\generated\res\rs\debug
-com.example.object_detection_flutter.app-mergeDebugResources-20 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
-com.example.object_detection_flutter.app-mergeDebugResources-21 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-com.example.object_detection_flutter.app-merged_res-22 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\intermediates\merged_res\debug
-com.example.object_detection_flutter.app-packaged_res-23 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\camera_android\intermediates\packaged_res\debug
-com.example.object_detection_flutter.app-packaged_res-24 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\debug
-com.example.object_detection_flutter.app-packaged_res-25 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\flutter_tflite\intermediates\packaged_res\debug
-com.example.object_detection_flutter.app-packaged_res-26 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\packaged_res\debug
-com.example.object_detection_flutter.app-packaged_res-27 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\permission_handler_android\intermediates\packaged_res\debug
+com.example.object_detection_flutter.app-webkit-1.5.0-3 C:\Users\Vadim\.gradle\caches\transforms-3\2b0f42d4443de6a5f1738d38912e20f4\transformed\webkit-1.5.0\res
+com.example.object_detection_flutter.app-lifecycle-runtime-2.6.1-4 C:\Users\Vadim\.gradle\caches\transforms-3\3581e76262429182d4b69a9de799b1b3\transformed\lifecycle-runtime-2.6.1\res
+com.example.object_detection_flutter.app-lifecycle-livedata-core-2.6.1-5 C:\Users\Vadim\.gradle\caches\transforms-3\360168463849f03bb49b40b161d9e8ea\transformed\lifecycle-livedata-core-2.6.1\res
+com.example.object_detection_flutter.app-core-1.10.1-6 C:\Users\Vadim\.gradle\caches\transforms-3\3731717fba2b9aac328544f627557865\transformed\core-1.10.1\res
+com.example.object_detection_flutter.app-browser-1.5.0-7 C:\Users\Vadim\.gradle\caches\transforms-3\42a5868a8ca922fb1169078514e56760\transformed\browser-1.5.0\res
+com.example.object_detection_flutter.app-lifecycle-livedata-2.6.1-8 C:\Users\Vadim\.gradle\caches\transforms-3\6156003f4c260ee3c2e06fd24fdb3152\transformed\lifecycle-livedata-2.6.1\res
+com.example.object_detection_flutter.app-jetified-window-java-1.0.0-beta04-9 C:\Users\Vadim\.gradle\caches\transforms-3\69784f8798499aada566d56915eaea52\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.object_detection_flutter.app-jetified-startup-runtime-1.1.1-10 C:\Users\Vadim\.gradle\caches\transforms-3\7743da308a5fc1539c5ede971c88b4f8\transformed\jetified-startup-runtime-1.1.1\res
+com.example.object_detection_flutter.app-jetified-core-ktx-1.10.1-11 C:\Users\Vadim\.gradle\caches\transforms-3\9069858c62004f13682531d31ea0bdaa\transformed\jetified-core-ktx-1.10.1\res
+com.example.object_detection_flutter.app-jetified-savedstate-1.2.1-12 C:\Users\Vadim\.gradle\caches\transforms-3\be90a3b1af0a4f86607586e8eb5e3c7f\transformed\jetified-savedstate-1.2.1\res
+com.example.object_detection_flutter.app-jetified-annotation-experimental-1.3.0-13 C:\Users\Vadim\.gradle\caches\transforms-3\c062ab15e694331f58e6823a350dbf1a\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.object_detection_flutter.app-jetified-activity-1.7.2-14 C:\Users\Vadim\.gradle\caches\transforms-3\e21306db8ffd2549120076b95899d60c\transformed\jetified-activity-1.7.2\res
+com.example.object_detection_flutter.app-jetified-window-1.0.0-beta04-15 C:\Users\Vadim\.gradle\caches\transforms-3\fc6658b749a9a03fa7668d3a2819fa6d\transformed\jetified-window-1.0.0-beta04\res
+com.example.object_detection_flutter.app-core-runtime-2.2.0-16 C:\Users\Vadim\.gradle\caches\transforms-3\fcf8346cc8927f4d72d07e3490a947dc\transformed\core-runtime-2.2.0\res
+com.example.object_detection_flutter.app-debug-17 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\android\app\src\debug\res
+com.example.object_detection_flutter.app-main-18 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\android\app\src\main\res
+com.example.object_detection_flutter.app-pngs-19 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\generated\res\pngs\debug
+com.example.object_detection_flutter.app-resValues-20 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\generated\res\resValues\debug
+com.example.object_detection_flutter.app-rs-21 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\generated\res\rs\debug
+com.example.object_detection_flutter.app-mergeDebugResources-22 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.object_detection_flutter.app-mergeDebugResources-23 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.object_detection_flutter.app-merged_res-24 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\intermediates\merged_res\debug
+com.example.object_detection_flutter.app-packaged_res-25 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\camera_android\intermediates\packaged_res\debug
+com.example.object_detection_flutter.app-packaged_res-26 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\debug
+com.example.object_detection_flutter.app-packaged_res-27 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\flutter_tflite\intermediates\packaged_res\debug
+com.example.object_detection_flutter.app-packaged_res-28 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\packaged_res\debug
+com.example.object_detection_flutter.app-packaged_res-29 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\permission_handler_android\intermediates\packaged_res\debug
+com.example.object_detection_flutter.app-packaged_res-30 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\url_launcher_android\intermediates\packaged_res\debug
+com.example.object_detection_flutter.app-packaged_res-31 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\webview_flutter_android\intermediates\packaged_res\debug

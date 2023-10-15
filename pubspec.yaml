@@ -17,11 +17,13 @@ dependencies:
   permission_handler: ^10.3.0
   image: ^3.2.0
   flutter_tflite: ^1.0.1
+  webview_flutter: ^3.0.0
 
 
   cupertino_icons: ^1.0.2
   flutter_translate: ^4.0.4
   translator: ^0.1.7
+  url_launcher: ^6.1.14
 
 dev_dependencies:
   flutter_test:

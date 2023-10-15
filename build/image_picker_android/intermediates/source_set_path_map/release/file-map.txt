@@ -13,12 +13,12 @@ io.flutter.plugins.imagepicker.image_picker_android-jetified-annotation-experime
 io.flutter.plugins.imagepicker.image_picker_android-jetified-activity-1.7.2-12 C:\Users\Vadim\.gradle\caches\transforms-3\e21306db8ffd2549120076b95899d60c\transformed\jetified-activity-1.7.2\res
 io.flutter.plugins.imagepicker.image_picker_android-jetified-window-1.0.0-beta04-13 C:\Users\Vadim\.gradle\caches\transforms-3\fc6658b749a9a03fa7668d3a2819fa6d\transformed\jetified-window-1.0.0-beta04\res
 io.flutter.plugins.imagepicker.image_picker_android-core-runtime-2.2.0-14 C:\Users\Vadim\.gradle\caches\transforms-3\fcf8346cc8927f4d72d07e3490a947dc\transformed\core-runtime-2.2.0\res
-io.flutter.plugins.imagepicker.image_picker_android-main-15 C:\Users\Vadim\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.7+3\android\src\main\res
-io.flutter.plugins.imagepicker.image_picker_android-release-16 C:\Users\Vadim\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.7+3\android\src\release\res
-io.flutter.plugins.imagepicker.image_picker_android-packaged_res-17 E:\newu\Real_time_object_detector_flutter-Master\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\release
-io.flutter.plugins.imagepicker.image_picker_android-pngs-18 E:\newu\Real_time_object_detector_flutter-Master\build\image_picker_android\generated\res\pngs\release
-io.flutter.plugins.imagepicker.image_picker_android-resValues-19 E:\newu\Real_time_object_detector_flutter-Master\build\image_picker_android\generated\res\resValues\release
-io.flutter.plugins.imagepicker.image_picker_android-rs-20 E:\newu\Real_time_object_detector_flutter-Master\build\image_picker_android\generated\res\rs\release
-io.flutter.plugins.imagepicker.image_picker_android-mergeReleaseResources-21 E:\newu\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
-io.flutter.plugins.imagepicker.image_picker_android-mergeReleaseResources-22 E:\newu\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
-io.flutter.plugins.imagepicker.image_picker_android-merged_res-23 E:\newu\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\merged_res\release
+io.flutter.plugins.imagepicker.image_picker_android-main-15 C:\Users\Vadim\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.8+1\android\src\main\res
+io.flutter.plugins.imagepicker.image_picker_android-release-16 C:\Users\Vadim\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.8+1\android\src\release\res
+io.flutter.plugins.imagepicker.image_picker_android-packaged_res-17 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\release
+io.flutter.plugins.imagepicker.image_picker_android-pngs-18 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\image_picker_android\generated\res\pngs\release
+io.flutter.plugins.imagepicker.image_picker_android-resValues-19 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\image_picker_android\generated\res\resValues\release
+io.flutter.plugins.imagepicker.image_picker_android-rs-20 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\image_picker_android\generated\res\rs\release
+io.flutter.plugins.imagepicker.image_picker_android-mergeReleaseResources-21 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.imagepicker.image_picker_android-mergeReleaseResources-22 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.imagepicker.image_picker_android-merged_res-23 C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\image_picker_android\intermediates\merged_res\release

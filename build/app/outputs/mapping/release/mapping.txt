@@ -3,8 +3,8 @@
 # min_api: 23
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.0"}
-# pg_map_id: a558ebd
-# pg_map_hash: SHA-256 a558ebd00163a5939e45d18e6187c4284f3bb9adb96feed3d34669cba039ae00
+# pg_map_id: bc2a432
+# pg_map_hash: SHA-256 bc2a4326641028d687f968db67d491ea02b9e66bf7c32e2568e0eae28fa657db
 android.app.AppComponentFactory -> android.app.AppComponentFactory:
 # {"id":"com.android.tools.r8.synthesized"}
     void <clinit>() -> <clinit>
@@ -2713,20 +2713,19 @@ com.baseflow.permissionhandler.PermissionHandlerPlugin -> p.m:
     void stopListening() -> k
     void stopListeningToActivity() -> l
 com.baseflow.permissionhandler.PermissionManager -> p.q:
-    java.util.Map requestResults -> c
+    java.util.Map requestResults -> d
     com.baseflow.permissionhandler.PermissionManager$RequestPermissionsSuccessCallback successCallback -> a
+    int pendingRequestCount -> c
     android.app.Activity activity -> b
-    boolean ongoing -> d
     boolean onActivityResult(int,int,android.content.Intent) -> a
     boolean onRequestPermissionsResult(int,java.lang.String[],int[]) -> b
     int checkBluetoothPermissionStatus(android.content.Context) -> c
     int checkNotificationPermissionStatus(android.content.Context) -> d
     void checkPermissionStatus(int,android.content.Context,com.baseflow.permissionhandler.PermissionManager$CheckPermissionsSuccessCallback) -> e
     int determinePermissionStatus(int,android.content.Context) -> f
-    void executeIntent(java.lang.String,int) -> g
-    void executeSimpleIntent(java.lang.String,int) -> h
-    void requestPermissions(java.util.List,android.app.Activity,com.baseflow.permissionhandler.PermissionManager$RequestPermissionsSuccessCallback,com.baseflow.permissionhandler.ErrorCallback) -> i
-    void shouldShowRequestPermissionRationale(int,android.app.Activity,com.baseflow.permissionhandler.PermissionManager$ShouldShowRequestPermissionRationaleSuccessCallback,com.baseflow.permissionhandler.ErrorCallback) -> j
+    void launchSpecialPermission(java.lang.String,int) -> g
+    void requestPermissions(java.util.List,android.app.Activity,com.baseflow.permissionhandler.PermissionManager$RequestPermissionsSuccessCallback,com.baseflow.permissionhandler.ErrorCallback) -> h
+    void shouldShowRequestPermissionRationale(int,android.app.Activity,com.baseflow.permissionhandler.PermissionManager$ShouldShowRequestPermissionRationaleSuccessCallback,com.baseflow.permissionhandler.ErrorCallback) -> i
 com.baseflow.permissionhandler.PermissionManager$$ExternalSyntheticApiModelOutline0 -> p.n:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
@@ -2740,7 +2739,7 @@ com.baseflow.permissionhandler.PermissionManager$$ExternalSyntheticApiModelOutli
 com.baseflow.permissionhandler.PermissionManager$$ExternalSyntheticApiModelOutline2 -> p.p:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    boolean com.baseflow.permissionhandler.PermissionManager$$InternalSyntheticApiModelOutline$3$c4203ecc4236dbc8d172876078256c251222de81f66fa4bda4a66505bdd5c805$2.m(android.app.AlarmManager) -> a
+    boolean com.baseflow.permissionhandler.PermissionManager$$InternalSyntheticApiModelOutline$1$48a46addaa29079568d372026fc7d0342d923776a767bbbf8d07b39414984b25$2.m(android.app.AlarmManager) -> a
       # {"id":"com.android.tools.r8.synthesized"}
 com.baseflow.permissionhandler.PermissionManager$CheckPermissionsSuccessCallback -> p.q$a:
     void onSuccess(int) -> a
@@ -2755,8 +2754,10 @@ com.baseflow.permissionhandler.PermissionUtils -> p.s:
     boolean hasPermissionInManifest(android.content.Context,java.util.ArrayList,java.lang.String) -> d
     boolean isNeverAskAgainSelected(android.app.Activity,java.lang.String) -> e
     int parseManifestName(java.lang.String) -> f
-    int toPermissionStatus(android.app.Activity,java.lang.String,int) -> g
-    void updatePermissionShouldShowStatus(android.app.Activity,int) -> h
+    void setPermissionDenied(android.content.Context,java.lang.String) -> g
+    int toPermissionStatus(android.app.Activity,java.lang.String,int) -> h
+    void updatePermissionShouldShowStatus(android.app.Activity,int) -> i
+    boolean wasPermissionDeniedBefore(android.content.Context,java.lang.String) -> j
 com.baseflow.permissionhandler.PermissionUtils$$ExternalSyntheticApiModelOutline0 -> p.r:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
@@ -5575,6 +5576,8 @@ io.flutter.plugins.camera.Camera$HandlerThreadFactory -> i0.s$j:
 io.flutter.plugins.camera.CameraCaptureCallback -> i0.v:
     io.flutter.plugins.camera.types.CameraCaptureProperties captureProps -> d
     io.flutter.plugins.camera.CameraCaptureCallback$CameraCaptureStateListener cameraStateListener -> a
+    android.hardware.camera2.CaptureResult$Key afStateKey -> f
+    android.hardware.camera2.CaptureResult$Key aeStateKey -> e
     io.flutter.plugins.camera.CameraState cameraState -> b
     io.flutter.plugins.camera.types.CaptureTimeoutsWrapper captureTimeouts -> c
     io.flutter.plugins.camera.CameraCaptureCallback create(io.flutter.plugins.camera.CameraCaptureCallback$CameraCaptureStateListener,io.flutter.plugins.camera.types.CaptureTimeoutsWrapper,io.flutter.plugins.camera.types.CameraCaptureProperties) -> a
@@ -5798,18 +5801,23 @@ io.flutter.plugins.camera.DartMessenger$DeviceEventType -> i0.l0$f:
     io.flutter.plugins.camera.DartMessenger$DeviceEventType[] $VALUES -> f
     java.lang.String method -> d
     io.flutter.plugins.camera.DartMessenger$DeviceEventType[] $values() -> a
-io.flutter.plugins.camera.ErrorCallback -> i0.m0:
+io.flutter.plugins.camera.DeviceInfo -> i0.m0:
+    java.lang.String BRAND -> a
+    java.lang.String MODEL -> b
+    java.lang.String getBrand() -> a
+    java.lang.String getModel() -> b
+io.flutter.plugins.camera.ErrorCallback -> i0.n0:
     void onError(java.lang.String,java.lang.String) -> a
-io.flutter.plugins.camera.ImageSaver -> i0.n0:
+io.flutter.plugins.camera.ImageSaver -> i0.o0:
     java.io.File file -> e
     android.media.Image image -> d
     io.flutter.plugins.camera.ImageSaver$Callback callback -> f
-io.flutter.plugins.camera.ImageSaver$Callback -> i0.n0$a:
+io.flutter.plugins.camera.ImageSaver$Callback -> i0.o0$a:
     void onError(java.lang.String,java.lang.String) -> a
     void onComplete(java.lang.String) -> b
-io.flutter.plugins.camera.ImageSaver$FileOutputStreamFactory -> i0.n0$b:
+io.flutter.plugins.camera.ImageSaver$FileOutputStreamFactory -> i0.o0$b:
     java.io.FileOutputStream create(java.io.File) -> a
-io.flutter.plugins.camera.MethodCallHandlerImpl -> i0.p0:
+io.flutter.plugins.camera.MethodCallHandlerImpl -> i0.q0:
     io.flutter.plugins.camera.Camera camera -> h
     io.flutter.plugins.camera.CameraPermissions$PermissionsRegistry permissionsRegistry -> d
     io.flutter.view.TextureRegistry textureRegistry -> e
@@ -5825,7 +5833,7 @@ io.flutter.plugins.camera.MethodCallHandlerImpl -> i0.p0:
     void instantiateCamera(io.flutter.plugin.common.MethodCall,io.flutter.plugin.common.MethodChannel$Result) -> d
     void lambda$onMethodCall$0(io.flutter.plugin.common.MethodCall,io.flutter.plugin.common.MethodChannel$Result,java.lang.String,java.lang.String) -> e
     void stopListening() -> f
-io.flutter.plugins.camera.MethodCallHandlerImpl$$ExternalSyntheticLambda0 -> i0.o0:
+io.flutter.plugins.camera.MethodCallHandlerImpl$$ExternalSyntheticLambda0 -> i0.p0:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
     io.flutter.plugins.camera.MethodCallHandlerImpl io.flutter.plugins.camera.MethodCallHandlerImpl$$InternalSyntheticLambda$2$73aeeb50107fcdd50714bff1b54df875c5535eb1019ebaaa405add32f4d3e104$0.f$0 -> a
@@ -5835,7 +5843,16 @@ io.flutter.plugins.camera.MethodCallHandlerImpl$$ExternalSyntheticLambda0 -> i0.
       # {"id":"com.android.tools.r8.synthesized"}
     void io.flutter.plugins.camera.MethodCallHandlerImpl$$InternalSyntheticLambda$2$73aeeb50107fcdd50714bff1b54df875c5535eb1019ebaaa405add32f4d3e104$0.onResult(java.lang.String,java.lang.String) -> a
       # {"id":"com.android.tools.r8.synthesized"}
-io.flutter.plugins.camera.VideoRenderer -> i0.q0:
+io.flutter.plugins.camera.SdkCapabilityChecker -> i0.r0:
+    int SDK_VERSION -> a
+    boolean supportsDistortionCorrection() -> a
+    boolean supportsEglRecordableAndroid() -> b
+    boolean supportsEncoderProfiles() -> c
+    boolean supportsMarshmallowNoiseReductionModes() -> d
+    boolean supportsSessionConfiguration() -> e
+    boolean supportsVideoPause() -> f
+    boolean supportsZoomRatio() -> g
+io.flutter.plugins.camera.VideoRenderer -> i0.s0:
     android.opengl.EGLSurface surface -> l
     android.os.HandlerThread surfaceTextureFrameAvailableHandler -> q
     int texMatrixHandle -> h
@@ -5872,9 +5889,9 @@ io.flutter.plugins.camera.VideoRenderer -> i0.q0:
     float[] moveMatrix() -> i
     void setRotation(int) -> j
     void startOpenGL() -> k
-io.flutter.plugins.camera.VideoRenderer$1 -> i0.q0$a:
+io.flutter.plugins.camera.VideoRenderer$1 -> i0.s0$a:
     io.flutter.plugins.camera.VideoRenderer this$0 -> a
-io.flutter.plugins.camera.VideoRenderer$2 -> i0.q0$b:
+io.flutter.plugins.camera.VideoRenderer$2 -> i0.s0$b:
     io.flutter.plugins.camera.VideoRenderer this$0 -> d
 io.flutter.plugins.camera.features.CameraFeature -> j0.a:
     io.flutter.plugins.camera.CameraProperties cameraProperties -> a
@@ -5969,7 +5986,9 @@ io.flutter.plugins.camera.features.exposureoffset.ExposureOffsetFeature -> m0.a:
     java.lang.Double getValue() -> f
     void setValue(java.lang.Double) -> g
 io.flutter.plugins.camera.features.exposurepoint.ExposurePointFeature -> n0.a:
+    android.hardware.camera2.params.MeteringRectangle[] defaultRegions -> g
     android.hardware.camera2.params.MeteringRectangle exposureRectangle -> d
+    boolean defaultRegionsHasBeenSet -> f
     android.util.Size cameraBoundaries -> b
     io.flutter.plugins.camera.features.Point exposurePoint -> c
     io.flutter.plugins.camera.features.sensororientation.SensorOrientationFeature sensorOrientationFeature -> e
@@ -6198,7 +6217,7 @@ io.flutter.plugins.flutter_plugin_android_lifecycle.FlutterAndroidLifecyclePlugi
     void onDetachedFromEngine(io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding) -> a
     void onAttachedToEngine(io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding) -> d
 io.flutter.plugins.imagepicker.ExifDataCopier -> io.flutter.plugins.imagepicker.a:
-    void copyExif(java.lang.String,java.lang.String) -> a
+    void copyExif(androidx.exifinterface.media.ExifInterface,androidx.exifinterface.media.ExifInterface) -> a
     void setIfNotNull(androidx.exifinterface.media.ExifInterface,androidx.exifinterface.media.ExifInterface,java.lang.String) -> b
 io.flutter.plugins.imagepicker.FileUtils -> io.flutter.plugins.imagepicker.b:
     void copy(java.io.InputStream,java.io.OutputStream) -> a

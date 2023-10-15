@@ -4,9 +4,9 @@
     minSdkVersion="23"
     targetSdkVersion="33"
     shrinking="true"
-    mergedManifest="E:\newu\Real_time_object_detector_flutter-Master\build\app\intermediates\merged_manifest\release\AndroidManifest.xml"
-    proguardFiles="E:\newu\Real_time_object_detector_flutter-Master\build\app\intermediates\default_proguard_files\global\proguard-android.txt-7.3.0;C:\Users\Vadim\AppData\Local\Android\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro;proguard-rules.pro"
-    partialResultsDir="E:\newu\Real_time_object_detector_flutter-Master\build\app\intermediates\lint_vital_partial_results\release\out"
+    mergedManifest="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\intermediates\merged_manifest\release\AndroidManifest.xml"
+    proguardFiles="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\intermediates\default_proguard_files\global\proguard-android.txt-7.3.0;C:\Users\Vadim\AppData\Local\Android\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro;proguard-rules.pro"
+    partialResultsDir="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\intermediates\lint_vital_partial_results\release\out"
     desugaredMethodsFiles="C:\Users\Vadim\.gradle\caches\transforms-3\95a2fe4a363a496404de561220c5302c\transformed\D8BackportedDesugaredMethods.txt">
   <buildFeatures
       namespacing="REQUIRED"/>
@@ -32,9 +32,9 @@
         value="android.app.Application" />
   </manifestPlaceholders>
   <mainArtifact
-      classOutputs="E:\newu\Real_time_object_detector_flutter-Master\build\app\intermediates\javac\release\classes;E:\newu\Real_time_object_detector_flutter-Master\build\app\tmp\kotlin-classes\release;E:\newu\Real_time_object_detector_flutter-Master\build\app\kotlinToolingMetadata;E:\newu\Real_time_object_detector_flutter-Master\build\app\intermediates\compile_and_runtime_not_namespaced_r_class_jar\release\R.jar"
+      classOutputs="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\intermediates\javac\release\classes;C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\tmp\kotlin-classes\release;C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\kotlinToolingMetadata;C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\intermediates\compile_and_runtime_not_namespaced_r_class_jar\release\R.jar"
       applicationId="com.example.object_detection_flutter"
-      generatedSourceFolders="E:\newu\Real_time_object_detector_flutter-Master\build\app\generated\ap_generated_sources\release\out;E:\newu\Real_time_object_detector_flutter-Master\build\app\generated\aidl_source_output_dir\release\out;E:\newu\Real_time_object_detector_flutter-Master\build\app\generated\source\buildConfig\release;E:\newu\Real_time_object_detector_flutter-Master\build\app\generated\renderscript_source_output_dir\release\out"
-      generatedResourceFolders="E:\newu\Real_time_object_detector_flutter-Master\build\app\generated\res\rs\release;E:\newu\Real_time_object_detector_flutter-Master\build\app\generated\res\resValues\release">
+      generatedSourceFolders="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\generated\ap_generated_sources\release\out;C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\generated\aidl_source_output_dir\release\out;C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\generated\source\buildConfig\release;C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\generated\renderscript_source_output_dir\release\out"
+      generatedResourceFolders="C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\generated\res\rs\release;C:\Users\Vadim\Desktop\copy codes\Real_time_object_detector_flutter-Master\build\app\generated\res\resValues\release">
   </mainArtifact>
 </variant>
