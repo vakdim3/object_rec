@@ -48,7 +48,7 @@ class _CameraViewState extends State<CameraView> {
           Row(
             children: [
               IconButton(
-                icon: const Icon(Icons.elevator),
+                icon: const Icon(Icons.book),
                 onPressed: (){
                Navigator.pushNamed(context, '/elevator');
                 },
