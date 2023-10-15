@@ -11,6 +11,8 @@ import 'package:object_detection_flutter/main/camera_view.dart';
 import 'package:object_detection_flutter/main/navbar.dart';
 import 'package:object_detection_flutter/main/Elevator.dart';
 
+import 'package:flutter_translate/flutter_translate.dart';
+
 
 
 void main() {
@@ -41,8 +43,8 @@ class MyApp extends StatelessWidget {
         '/helpurl' :(context) =>  Helpurl (),
         '/Info' :(context) =>  Info (),
         '/Pinfo' :(context) =>  Pinfo (),
-        '/elevator' :(context) =>  elevator (),
-        '/Fav' :(context) =>  Fav (),
+        '/elevator' :(context) =>  TranslationPage (),
+        '/Fav' :(context) =>  FavoritesPage (),
         '/Report' :(context) =>  BugReportPage (),
         '/Request' :(context) =>  FeatureRequestPage (),
         '/Settings' :(context) =>  SettingsPage (),

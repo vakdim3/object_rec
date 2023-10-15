@@ -20,6 +20,8 @@ dependencies:
 
 
   cupertino_icons: ^1.0.2
+  flutter_translate: ^4.0.4
+  translator: ^0.1.7
 
 dev_dependencies:
   flutter_test:
