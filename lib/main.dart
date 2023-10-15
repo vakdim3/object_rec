@@ -43,9 +43,9 @@ class MyApp extends StatelessWidget {
         '/Pinfo' :(context) =>  Pinfo (),
         '/elevator' :(context) =>  elevator (),
         '/Fav' :(context) =>  Fav (),
-        '/Report' :(context) =>  Report (),
-        '/Request' :(context) =>  Request (),
-        '/Settings' :(context) =>  Settings (),
+        '/Report' :(context) =>  BugReportPage (),
+        '/Request' :(context) =>  FeatureRequestPage (),
+        '/Settings' :(context) =>  SettingsPage (),
 
 
       },

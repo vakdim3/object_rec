@@ -1,30 +1,61 @@
 import 'package:flutter/material.dart';
 
-class Request extends StatelessWidget{
-  const Request ({Key? key}) : super(key: key);
+
+
+class FeatureRequestPage extends StatefulWidget {
+  @override
+  _FeatureRequestPageState createState() => _FeatureRequestPageState();
+}
+
+class _FeatureRequestPageState extends State<FeatureRequestPage> {
+  final TextEditingController _functionDetailsController =
+      TextEditingController();
 
   @override
- Widget build(BuildContext context) {
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        centerTitle: true,
-        title: const Text(
-          'second screen',
-        ),
+        title: Text('Feature Request'),
+        backgroundColor: Colors.teal, 
       ),
-      body: Center(
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Text(
+              'Please provide details about the new function:',
+              style: TextStyle(fontSize: 18),
+            ),
+            SizedBox(height: 20),
+            TextFormField(
+              controller: _functionDetailsController,
+              maxLines: 5,
+              style: TextStyle(color: Colors.black),
+              decoration: InputDecoration(
+                labelText: 'Function Details',
+                border: OutlineInputBorder(),
+              ),
+            ),
+            SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                Navigator.pop(context);
+                _submitFunctionRequest();
               },
-              child: const Text('Back'),
+              style: ElevatedButton.styleFrom(
+                primary: Colors.teal, 
+                textStyle: TextStyle(color: Colors.white), 
+              ),
+              child: Text('Submit Function Request'),
             ),
           ],
         ),
       ),
     );
+  }
+
+  void _submitFunctionRequest() {
+    String functionDetails = _functionDetailsController.text;
+    print('Function Details: $functionDetails');
   }
 }
